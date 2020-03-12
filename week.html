@@ -4,20 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Неделя</title>
+    <title>Current Week</title>
 </head>
 
 <body>
+    <div>
+        <h1>Week</h1>
+        <p id="num">123</p>
+    </div>
+
     <script>
         Date.prototype.getWeek = function () {
             var onejan = new Date(this.getFullYear(), 0, 1);
             return Math.ceil((((this - onejan) / 86400000) + onejan.getDay() + 1) / 7);
         }
-
-        var weekNumber = (new Date()).getWeek();
+        let weekNumber = (new Date()).getWeek();
         var now = new Date();
-        document.write("Неделя: " + weekNumber);
+        document.getElementById("num").innerHTML = weekNumber
     </script>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(46, 46, 46);
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0em;
+        }
+
+        #num {
+            margin: 0em;
+            font-size: 6rem;
+            font-weight: bold;
+        }
+    </style>
 </body>
 
 </html>
