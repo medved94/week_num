@@ -1,9 +1,11 @@
+@import url(http://db.onlinewebfonts.com/c/527ea5851ca62a9a758a44dc39437eae?family=Old+English+Text+MT);
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(46, 46, 46);
+    font-family: 'Old English Text MT', Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 23, 25);
     color: white;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -15,5 +17,3 @@ h1 {
     font-size: 6rem;
     font-weight: bold;
 }
-
-
