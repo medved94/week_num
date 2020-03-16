@@ -44,7 +44,7 @@ body {
 }
 
 #snoop {
-    display: none;
+    display: block;
 }
 
 .btn {

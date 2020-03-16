@@ -4,11 +4,9 @@ Date.prototype.getWeek = function () {
 }
 
 window.onload = function () {
-    setTimeout('document.location.reload(true)', 86400000);
+    //setTimeout('document.location.reload(true)', 86400000);
     let weekNumber = (new Date()).getWeek();
-    //var now = new Date();
     document.getElementById("num").innerHTML = weekNumber;
-
 }
 
 function show() {
