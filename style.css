@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "New Old English"; 
-    src: url("https//db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.eot"); 
-    src: url("https://db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.eot?#iefix") format("embedded-opentype"), 
-    url("https://db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.woff2") format("woff2"), 
-    url("https://db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.woff") format("woff"), 
-    url("https://db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.ttf") format("truetype"), 
-    url("https://db.onlinewebfonts.com/t/41cca20249a72bd8b5ec5770a001b96d.svg#New Old English") format("svg"); 
+    src: url("./fonts/41cca20249a72bd8b5ec5770a001b96d.eot"); 
+    src: url("./fonts/41cca20249a72bd8b5ec5770a001b96d.eot?#iefix") format("embedded-opentype"), 
+    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.woff2") format("woff2"), 
+    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.woff") format("woff"), 
+    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.ttf") format("truetype"), 
+    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.svg#New Old English") format("svg"); 
 }
 
 body {
