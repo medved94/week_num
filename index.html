@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Current Week</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
-    <div>
-        <h1>Week</h1>
-        <p id="num"></p>
+    <div class="container">
+        <div class="box-1">
+            <h1>Week</h1>
+            <p id="num"></p>
+        </div>
+
+        <div class="box-2">
+            <img width=120px id="snoop" src="./static/snoop.gif" alt="snoop">
+        </div>
+
+        <button onclick="show()" class="btn">Snoop!</button>
     </div>
-
-    <script src="main.js"></script>
-
 </body>
 
 </html>
