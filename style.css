@@ -1,35 +1,18 @@
 /*@import url(https://db.onlinewebfonts.com/c/527ea5851ca62a9a758a44dc39437eae?family=Old+English+Text+MT);*/
 
 @font-face {
-    font-family: "New Old English"; 
+    font-family: "New Old English";
     src: url("./fonts/41cca20249a72bd8b5ec5770a001b96d.eot"); 
-    src: url("./fonts/41cca20249a72bd8b5ec5770a001b96d.eot?#iefix") format("embedded-opentype"), 
+    src: url("./fonts/8967.ttf") format("truetype"), 
+    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.eot?#iefix") format("embedded-opentype"), 
     url("./fonts/41cca20249a72bd8b5ec5770a001b96d.woff2") format("woff2"), 
     url("./fonts/41cca20249a72bd8b5ec5770a001b96d.woff") format("woff"), 
-    url("./fonts/41cca20249a72bd8b5ec5770a001b96d.ttf") format("truetype"), 
+    
     url("./fonts/41cca20249a72bd8b5ec5770a001b96d.svg#New Old English") format("svg"); 
 }
 
 body {
-    font-family: 'Old English Text MT', Arial, Helvetica, sans-serif;
-    background-color: rgb(22, 23, 25);
-    color: white;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-h1 {
-    margin-bottom: 0em;
-}
-
-#num {
-    margin: 0em;
-    font-size: 6rem;
-    font-weight: bold;
-}
-
-body {
-    font-family: 'Old English Text MT', Arial, Helvetica, sans-serif;
+    font-family: 'New Old English',  Arial, Helvetica, sans-serif;
     background-color: rgb(22, 23, 25);
     color: white;
     text-transform: uppercase;
